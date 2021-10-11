@@ -1,7 +1,5 @@
 * {
   font-family: "Poppins", sans-serif;
-  background-color: #0078FA;
-  color: #fff;
 }
 
 
@@ -58,11 +56,12 @@ main {
   display: flex;
   font-weight: normal;
   font-size: 15px;
+  color: #000;
 }
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #000;
 }
 
 a:visited {
