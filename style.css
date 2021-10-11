@@ -45,7 +45,7 @@ header {
 }
 
 main {
-  margin: 0 150px;
+  margin: 0 min(10%, 150px);
   font-weight: normal;
   font-size: 15px;
   color: #000;
