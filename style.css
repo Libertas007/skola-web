@@ -2,13 +2,19 @@
   font-family: "Poppins", sans-serif;
 }
 
+
+body {
+  margin: 0;
+  top: 0;
+}
+
 header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.back-div {
+.back-div, .spacer {
   width: 150px;
   display: flex;
   justify-content: center;
@@ -42,10 +48,12 @@ header {
   color: #fff;
   background-color: #bbb;
   cursor: pointer;
+  margin: 8px;
 }
 
 main {
-  margin: 0 min(10%, 150px);
+  margin: 0;
+  display: flex;
   font-weight: normal;
   font-size: 15px;
   color: #000;
@@ -58,6 +66,11 @@ a {
 
 a:visited {
   color: #666;
+}
+
+
+article {
+  flex: 1;
 }
 
 .non-visible {
