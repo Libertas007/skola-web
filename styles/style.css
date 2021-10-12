@@ -15,7 +15,7 @@ header, main {
 }
 
 .back-div, .spacer {
-  width: 150px;
+  max-width: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,4 +75,10 @@ article {
 
 .non-visible {
   display: none;
+}
+
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
 }
