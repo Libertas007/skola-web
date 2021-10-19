@@ -5,7 +5,7 @@ function main() {
     
 }
 
-document.getElementById("submit").onsubmit = (e) => {
+document.getElementById("submit").onclick = (e) => {
     e.preventDefault()
     console.log("Zpracovávám údaje...")
     setTimeout(() => {
