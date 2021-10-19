@@ -88,6 +88,13 @@ img {
   height: auto;
 }
 
+.img-title {
+  margin: 0 auto 10px auto;
+  font-size: 15px;
+  font-weight: lighter;
+  color: #bbb;
+}
+
 input[type=range] {
   max-width: 500px;
   margin: 9.35px 0;
