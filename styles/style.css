@@ -42,13 +42,17 @@ header, main {
 }
 
 button {
-  width: 50px;
+  width: fit-content;
   border: 2px solid #bbb;
   border-radius: 5px;
   color: #fff;
   background-color: #bbb;
   cursor: pointer;
   margin: 8px;
+}
+
+.back-btn {
+  width: 50px;
 }
 
 main {
