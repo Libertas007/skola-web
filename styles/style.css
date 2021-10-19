@@ -85,7 +85,7 @@ img {
 }
 
 input[type=range] {
-  width: 100%;
+  max-width: 500px;
   margin: 9.35px 0;
   background-color: transparent;
   -webkit-appearance: none;
