@@ -41,7 +41,7 @@ header, main {
   width: 150px;
 }
 
-.back-btn {
+button {
   width: 50px;
   border: 2px solid #bbb;
   border-radius: 5px;
