@@ -88,15 +88,6 @@ img.has-title {
   margin-bottom: 0;
 }
 
-#notification {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #e50000;
-  width: 100%;
-  height: 100px;
-}
-
 .img-title {
   margin: 0 auto 10px auto;
   font-size: 15px;
